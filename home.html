@@ -1,0 +1,39 @@
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./clientScript.js"></script>
+    <style>
+    .center_div{
+    margin: 0 auto;
+    width:30% /* value of your choice which suits your alignment */
+}
+    </style>
+</head>
+<article id="content1" class="container center_div">
+    <p>
+        <form id="uploadForm">
+            <div class="form-group">
+                <label > Name : </label>
+                <input class="form-control" required type="text" value="" name="name" id="name">
+            </div>
+            <div class="form-group">
+                <label> Email :</label>
+                <input class="form-control" required type="text" value="" name="email" id="email">
+            </div>
+            <div class="form-group"><label> Contact : </label>
+                <input class="form-control" required type="text" value="" name="contact" id="contact">
+            </div>
+            <div class="form-group"><label> SkillSets :</label>
+                <input class="form-control" required type="text" value="" name="skillsets" id="skillsets">
+            </div>
+            <div class="form-group"><label> LinkedIn Account:</label>
+                <input class="form-control" type="text" value="" name="linkedinUrl" id="linkedinUrl">
+            </div>
+            <div class="form-group">
+                <label> Upload File :</label><input class="form-control" required id="attach" name="attach" type="file" multiple />
+            </div>
+        </form>
+        <input value="Submit" type="button" onclick="submit();" />
+    </p>
+</article>
