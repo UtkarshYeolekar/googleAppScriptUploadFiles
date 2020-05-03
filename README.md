@@ -4,12 +4,19 @@ Using Google App Script to upload multiple files to google drive.
 # Prerequisite
 
 1. Create google sheet with sheet name('responses') and with following columns: Check the sample sheet in the repository
+
     a. timeline (description : Will auto update the record creation time).
+
     b. name  (description : name value passed from the html form).
+
     c. email (description : email value passed from the html form).
+
     d. contact (description : contact no value passed from the html form).
+
     e. resume (description : Auto populated with the google drive file url;s ).
+
     f. skillsets (description : skillsets value passed from the html form ).
+    
     g. linkedinUrl (description : linkedinUrl value passed from the html form ).
 
 2. Go to the Sheet-> Tools -> Script Editor.
