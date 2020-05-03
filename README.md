@@ -5,7 +5,7 @@ Using Google App Script to upload multiple files to google drive.
 
 1. Create google sheet with sheet name('responses') and with following columns: Check the sample sheet in the repository
 
-![Alt text](./sheet.jpg?raw=true "Sample Response Sheet")
+![Sample Sheet](./img/sheet.JPG?raw=true "Sample Response Sheet")
 
     a. timeline (description : Will auto update the record creation time).
 
@@ -42,4 +42,4 @@ Using Google App Script to upload multiple files to google drive.
 
 10. Save everything and click the submit button on the form.
 
-![Alt text](./form.jpg?raw=true "HTML Form")
+![HTML FORM](./img/form.JPG?raw=true "HTML Form")
